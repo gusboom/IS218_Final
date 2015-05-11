@@ -1,0 +1,132 @@
+/*
+#Gustavo Buitrago
+#IS218-102
+#Prof. Keith Williams
+#Final Project
+#mystyle.css
+*/
+
+/* Configure body */
+body {
+	background-image: url(http://www.njit.edu/homeimages/footer-bgs/home-7.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-size: 21px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Configure wrapper */
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	background-color: #782D2E;
+	opacity: .94;
+	filter: alpha(opacity=90);
+	min-width: 980px;
+	min-height: 900px;
+	-webkit-box-shadow: 5px 5px 5px #000033;
+	-moz-box-shadow: 5px 5px 5px #000033;
+	box-shadow: 5px 5px 5px #000033;
+	box-shadow: 0 0 4px 4px white;
+}
+
+/* Configure h1 */
+h1 {
+	text-align: center;
+	background-color: #22229C;
+	color: white;
+ 	font-size: 20px margin-bottom: 10;
+	padding: 8px;
+	font-family: Helvetica, "Times New Roman", serif;
+	float: center;
+	box-shadow: 0 0 4px 4px white;
+}
+
+/* Configure content */
+#content {
+	padding: 1px 10px 10px 30px;
+	margin-left: 750px;
+	margin-right: 20px;
+}
+#selecter {
+	display: inline-block;
+}
+#selecter1 {
+	display: inline-block;
+	margin-left: 700px;
+}
+#content img, #content video, #content embed {
+	float: right;
+	padding-right: 20px;
+	border: none;
+}
+
+/* Configure nav */
+#nav ul { 
+	font-size: 21px;
+}
+#nav {
+	text-align: left;
+	margin-left: 20px;
+	margin-top: 1px;
+	padding: 15px;
+	/*font-weight: bold;*/ 
+	float: left;
+	width: 700px;
+	min-height: 730px;
+	box-shadow: 0 0 4px 4px white;
+}
+#note {
+	color: #FF6D6D;
+	font-size: 14px;
+	margin-left: 60px;
+	margin-right: 60px;
+	background-color: #22229C;
+	font-style: italic;
+}
+#nav a {
+	text-decoration: none;
+}
+#nav a:link {
+	color: black;
+}
+#nav a:visited {
+	color: black;
+}
+#nav a:hover {
+	color: white;
+}
+bocy, p {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* tables */
+table {
+	border: 1px solid #3399cc;
+	width: 1000px;
+	border-spacing: 0;
+}
+td, th {
+	padding: 10px;
+	border: 1px solid #3399cc;
+}
+td {
+	text-align: center;
+	font-size: 21px;
+}
+.text {
+	text-align: left;
+}
+
+tr {
+	background-color: #AEAFCB
+}
+
+/* paragraph */
+.p {
+	color: white;
+	font-family: Verdana, Helvetica, sans-serif;
+}
